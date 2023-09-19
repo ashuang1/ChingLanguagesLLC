@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 8%;
+    background: #87E752;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li {
+    display: flex;
+    margin: 0 1rem;
+    padding: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #FF37A6;
+    font-size: 1.25rem;
+}
+
+.navbar ul li a:hover {
+    color: #ba086a;
+}
+
+.flower {
+    display: flex;
+    position: absolute;
+    top: 58vh;
+    left: 13vw;
+    /* rotate: -15deg; */
+}
+
+#stem {
+    position: absolute;
+    top: 12vh;
+    left: 11vh;
+    width: 2vh;
+    height: 30vh;
+    background-color: #43B929;
+    border-radius: 20%;
+}
+
+#leaf {
+    position: absolute;
+    rotate: 80deg;
+    top: 22vh;
+    left: 2vh;
+    width: 9vh;
+    height: 9vh;
+    background-color: #43B929;
+    border-radius: 100% 10%;
+}
+
+#head {
+    width: 24vh;
+    height: 24vh;
+}
+
+#petal1 {
+    position: absolute;
+    rotate: 90deg;
+    width: 12vh;
+    height: 12vh;
+    background-color: #FF37A6;
+    border-radius: 100% 10%;
+}
+
+#petal2 {
+    position: absolute;
+    left: 12vh;
+    width: 12vh;
+    height: 12vh;
+    background-color: #FF37A6;
+    border-radius: 100% 10%;
+}
+
+#petal3 {
+    position: absolute;
+    top: 12vh;
+    width: 12vh;
+    height: 12vh;
+    background-color: #FF37A6;
+    border-radius: 100% 10%;
+}
+
+#petal4 {
+    position: absolute;
+    top: 12vh;
+    left: 12vh;
+    rotate: 90deg;
+    width: 12vh;
+    height: 12vh;
+    background-color: #FF37A6;
+    border-radius: 100% 10%;
+}
+
+#center {
+    position: absolute;
+    top: 9vh;
+    left: 9vh;
+    height: 6vh;
+    width: 6vh;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.flower1 {
+    display: flex;
+    position: absolute;
+    top: 64vh;
+    left: 30vw;
+    transform: scale(0.8, 0.8);
+}
+
+#head1 {
+    width: 24vh;
+    height: 24vh;
+}
+
+.flower2 {
+    display: flex;
+    position: absolute;
+    top: 62.5vh;
+    left: 65vw;
+    transform: scale(0.85, 0.85);
+}
+
+#head2 {
+    width: 24vh;
+    height: 24vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+section h1 {
+    font-size: 10vh;
+    color: #43B929;
+}
+
+#introduction p {
+    font-size: 1.5rem;
+}
+
+#quotes {
+    height: 100vh;
+    background-color: #FFCAE9;
+}
+
+#quotes h1 {
+    color: #43B929;
+}
+
+#fees {
+    height: 100vh;
+    background-color: #FFCAE9;
+}
+
+#fees h1 {
+    color: #43B929;
+}
+
+
+
+
+/* About page */
+#pro-license ul {
+    margin-top: 2rem;
+}
+
+#pro-license li {
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+}
+
+#education {
+    background-color: #FFCAE9;
+}
+
+#education ul {
+    margin-top: 2rem;
+}
+
+#education li {
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+}
+
+#about p {
+    font-size: 1.5rem;
+    margin: 12vw;
+}
