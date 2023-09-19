@@ -175,17 +175,15 @@ section h1 {
     background-color: #FFCAE9;
 }
 
-#quotes h1 {
+#quotes h2 {
+    margin: 5vw;
+    font-size: 6.5vh;
     color: #43B929;
 }
 
 #fees {
     height: 100vh;
     background-color: #FFCAE9;
-}
-
-#fees h1 {
-    color: #43B929;
 }
 
 
@@ -214,7 +212,13 @@ section h1 {
     font-size: 1.4rem;
 }
 
+#about h1 {
+    margin-top: 2rem;
+}
+
 #about p {
     font-size: 1.5rem;
-    margin: 12vw;
+    margin-top: 2rem;
+    margin-left: 12vw;
+    margin-right: 12vw;
 }
